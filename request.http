@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:6001
+
+### 注册用户
+POST {{baseUrl}}/register
+Content-Type: application/json
+
+{
+  "username": "guigui",
+  "password": "pa"
+}
