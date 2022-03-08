@@ -1,10 +1,27 @@
 @baseUrl = http://localhost:6001
 
+### 查看所有用户
+GET {{baseUrl}}/findUsers
+
 ### 注册用户
 POST {{baseUrl}}/register
 Content-Type: application/json
 
 {
-  "username": "guigui",
-  "password": "pa"
+  "username": "fg",
+  "password": "fengfengpa"
 }
+
+### 登录用户
+POST {{baseUrl}}/login
+Content-Type: application/json
+
+{
+  "username": "fg",
+  "password": "fengfengpa"
+}
+
+### 个人信息
+GET {{baseUrl}}/user/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMjcwODlkYzM5YjQxYWVkYWQ1MTdkMiIsImlhdCI6MTY0NjcyNjAyOCwiZXhwIjoxNjQ2NzI3ODI4fQ.BSwyP7PEQU9TBXDWSOGqh-Xh_GAUc9Nw394RXqHNO6c
+
