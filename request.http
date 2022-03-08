@@ -23,5 +23,5 @@ Content-Type: application/json
 
 ### 个人信息
 GET {{baseUrl}}/user/profile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMjcwODlkYzM5YjQxYWVkYWQ1MTdkMiIsImlhdCI6MTY0NjcyNjAyOCwiZXhwIjoxNjQ2NzI3ODI4fQ.BSwyP7PEQU9TBXDWSOGqh-Xh_GAUc9Nw394RXqHNO6c
+Authorization: Bearer xxx
 
